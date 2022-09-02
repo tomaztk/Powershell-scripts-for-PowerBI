@@ -1,14 +1,12 @@
 ﻿<#
     .SYNOPSIS
-    Script for retrieving Activity logs for given organisation / tenant on Power BI Azure.
+    Script for retrieving list of all users and their access permissions for all Workspaces in a given organisation / tenant on Power BI Azure.
     .DESCRIPTION
-        Script iterates through number of days and uses cmdlet Get-PowerBIActivityEvent to retrieve activity log of Power BI tenant.
-        The logs are stored into SQL Server table with use of cmdlet Write-SqlTableData.
+        Script iterates through all workspaces and return usernames, their access permission for given workspaces in a given Power BI tenant.
         
         Script must be run as administrator. Modules: MicrosoftPowerBIMgmt.Profile and SqlServer must also be installed under
         same user. 
         Run: Install-Module -Name MicrosoftPowerBIMgmt.Profile -Force
-        Run: Install-Module -Name SqlServer -Force
         Created by: Tomaz Kastrun, 02 September 2022
     .INPUTS
     None. Provide only Username and password for Azure subscription
