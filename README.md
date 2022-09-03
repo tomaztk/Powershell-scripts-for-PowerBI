@@ -17,6 +17,7 @@ Features
 
 * Deleting datasets ([Blogpost](https://tomaztsql.wordpress.com/2022/08/18/deleting-power-bi-datasets-using-powershell/))
 * Storing activity logs ([Blogpost](https://tomaztsql.wordpress.com/2022/08/24/longterm-storage-of-power-bi-activity-logs-and-statistics-using-powershell/))
+* Retrieving list of users for all workspaces ([Blogpost](https://tomaztsql.wordpress.com/2022/09/03/retrieving-list-of-users-for-all-workspaces-in-your-powerbi-tenant-using-powershell/))
 
 
 
